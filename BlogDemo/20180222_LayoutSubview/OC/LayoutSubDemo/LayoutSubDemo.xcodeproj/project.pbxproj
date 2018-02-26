@@ -13,6 +13,8 @@
 		BE67C794203EAF5C00DC463A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE67C793203EAF5C00DC463A /* Assets.xcassets */; };
 		BE67C797203EAF5C00DC463A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE67C795203EAF5C00DC463A /* LaunchScreen.storyboard */; };
 		BE67C79A203EAF5C00DC463A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE67C799203EAF5C00DC463A /* main.m */; };
+		BE67C7C0203EBCA300DC463A /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE67C7BF203EBCA300DC463A /* CustomView.m */; };
+		BE67C7C32043A7D400DC463A /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE67C7C22043A7D400DC463A /* CustomScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BE67C796203EAF5C00DC463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE67C798203EAF5C00DC463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE67C799203EAF5C00DC463A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE67C7BE203EBCA300DC463A /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		BE67C7BF203EBCA300DC463A /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		BE67C7C12043A7D400DC463A /* CustomScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
+		BE67C7C22043A7D400DC463A /* CustomScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				BE67C78B203EAF5C00DC463A /* AppDelegate.m */,
 				BE67C78D203EAF5C00DC463A /* ViewController.h */,
 				BE67C78E203EAF5C00DC463A /* ViewController.m */,
+				BE67C7BE203EBCA300DC463A /* CustomView.h */,
+				BE67C7BF203EBCA300DC463A /* CustomView.m */,
+				BE67C7C12043A7D400DC463A /* CustomScrollView.h */,
+				BE67C7C22043A7D400DC463A /* CustomScrollView.m */,
 				BE67C790203EAF5C00DC463A /* Main.storyboard */,
 				BE67C793203EAF5C00DC463A /* Assets.xcassets */,
 				BE67C795203EAF5C00DC463A /* LaunchScreen.storyboard */,
@@ -143,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE67C78F203EAF5C00DC463A /* ViewController.m in Sources */,
+				BE67C7C0203EBCA300DC463A /* CustomView.m in Sources */,
+				BE67C7C32043A7D400DC463A /* CustomScrollView.m in Sources */,
 				BE67C79A203EAF5C00DC463A /* main.m in Sources */,
 				BE67C78C203EAF5C00DC463A /* AppDelegate.m in Sources */,
 			);
