@@ -2,7 +2,7 @@
 //  ViewController.m
 //  LayoutSubDemo
 //
-//  Created by muma on 2018/2/22.
+//  Created by Pany on 2018/2/22.
 //  Copyright © 2018年 Pany. All rights reserved.
 //
 
@@ -30,7 +30,6 @@
     [super viewDidAppear:animated];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        NSLog(@"test viewB");
         // 尝试修改viewB的size
 //        _viewB.frame = CGRectMake(_viewB.frame.origin.x, _viewB.frame.origin.y, 100, 100);
         
@@ -42,6 +41,12 @@
         
         // 尝试修改viewA的origin
 //        _viewA.frame = CGRectMake(10, 100, _viewA.frame.size.width, _viewA.frame.size.height);
+        
+        //尝试修改scrollView的contentSize
+//        _viewC.contentSize = CGSizeMake(500, 500);
+        
+        // 尝试以代码形式修改scrollView的contentOffset
+//        [_viewC setContentOffset:CGPointMake(0, 200) animated:YES];
 
     });
 }
