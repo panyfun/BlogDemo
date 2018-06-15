@@ -10,6 +10,8 @@
 
 #import <objc/runtime.h>
 
+#import "Man.h"
+#import "Man+Secret.h"
 #import "Woman.h"
 #import "Woman+Secret.h"
 
@@ -22,9 +24,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Woman *lara = [Woman new];
-    NSInteger age = lara.age;
+    Man *Richard = [Man new];
+    NSLog(@"Richard's age = %ld", (long)Richard.age);
+    Woman *Lara = [Woman new];
+    NSLog(@"Lara's age = %ld", (long)Lara.age);
     
+    // 打印方法列表
     unsigned int count;
     Method *methodList = class_copyMethodList(NSClassFromString(@"Woman"), &count);
     for (unsigned int i = 0; i < count; i++) {

@@ -14,6 +14,7 @@
 		BEC2A68820D369FA00975CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC2A68620D369FA00975CCD /* LaunchScreen.storyboard */; };
 		BEC2A68B20D369FA00975CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2A68A20D369FA00975CCD /* main.m */; };
 		BEC2A69420D36A4500975CCD /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2A69320D36A4500975CCD /* Woman.m */; };
+		BEEE81D320D3C2550040AB7F /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE81D220D3C2550040AB7F /* Man.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,9 @@
 		BEC2A69220D36A4500975CCD /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
 		BEC2A69320D36A4500975CCD /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
 		BEC2A69520D36A6700975CCD /* Woman+Secret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Woman+Secret.h"; sourceTree = "<group>"; };
+		BEEE81D120D3C2550040AB7F /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		BEEE81D220D3C2550040AB7F /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		BEEE81D420D3C2650040AB7F /* Man+Secret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Man+Secret.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,9 @@
 				BEC2A69220D36A4500975CCD /* Woman.h */,
 				BEC2A69320D36A4500975CCD /* Woman.m */,
 				BEC2A69520D36A6700975CCD /* Woman+Secret.h */,
+				BEEE81D120D3C2550040AB7F /* Man.h */,
+				BEEE81D220D3C2550040AB7F /* Man.m */,
+				BEEE81D420D3C2650040AB7F /* Man+Secret.h */,
 				BEC2A69620D36AA700975CCD /* Support Files */,
 			);
 			path = ExtensionDemo;
@@ -158,6 +165,7 @@
 			files = (
 				BEC2A69420D36A4500975CCD /* Woman.m in Sources */,
 				BEC2A68020D369F900975CCD /* ViewController.m in Sources */,
+				BEEE81D320D3C2550040AB7F /* Man.m in Sources */,
 				BEC2A68B20D369FA00975CCD /* main.m in Sources */,
 				BEC2A67D20D369F900975CCD /* AppDelegate.m in Sources */,
 			);
@@ -302,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TQMJ3ZZTCZ;
 				INFOPLIST_FILE = ExtensionDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TQMJ3ZZTCZ;
 				INFOPLIST_FILE = ExtensionDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
